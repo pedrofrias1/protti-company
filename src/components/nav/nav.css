@@ -1,0 +1,48 @@
+/* nav */
+.nav-bar {
+    width: 1440px;
+    height: 96px;
+}
+
+.logo-protti {
+    width: 121.19px;
+    height: 32px;
+}
+
+.links {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    gap: 24px;
+}
+
+.li {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.continuo,
+.no-continuo {
+    text-decoration: none;
+}
+
+.continuo {
+    color: #323232;
+}
+
+.no-continuo {
+    color: #FFFFFF;
+}
+
+.btn-inversion {
+    width: 133px;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+}
+.btn-sim{
+    width: 133px;
+    height: 48px;
+    border: 1px solid #323232;
+    color: #323232;
+}

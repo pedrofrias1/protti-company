@@ -1,13 +1,503 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* header */
+:root {
+  --color-323232: #323232;
+  --color-969696: #969696;
+  --bg-color-ffff:#ffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* animation */
+
+#rect-barra {
+  animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra {
+  100% {
+    width: 72%;
+  }
+}
+
+.see-more:hover {
+  background-color: #646464;
+  cursor: pointer;
+}
+
+/* color */
+.layouts,
+.color-32 {
+  color: var(--color-323232);
+}
+
+.p,
+.color-96 {
+  color: var(--color-969696);
+}
+
+/* font */
+.font-400{
+  font-weight: 400;
+}
+header {
+  padding-bottom: 60px;
+}
+
+.header-home {
+  justify-content: space-between;
+}
+
+.photo {
+  background-image: url(./img/photo.jpg);
+}
+
+.photo,
+.calculator {
+  position: relative;
+  border-radius: 40px;
+}
+
+/* btn */
+button {
+  background: transparent;
+  font-family: Museo Sans Rounded;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px 16px;
+  border-radius: 36px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.btn-register {
+  background-color: #00CC7C;
+}
+
+.btn-invertir,
+.btn-invertir-fromatodo,
+.btn-simulacion {
+  height: 60px;
+  gap: 8px;
+  padding: 16px 24px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.btn-invertir,
+.btn-invertir-fromatodo {
+  width: 173px;
+  background-color: #00CC7C;
+}
+
+.btn-invertir-fromatodo {
+  background-color: #001A6F;
+}
+
+ul {
+  list-style: none;
+}
+
+.hero-section,
+.hero-text {
+  width: 652px;
+}
+
+.hero-span {
+  color: #00CC7C;
+}
+
+.div-btn-hero {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* section label header */
+.header-home,
+.photo {
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.div-label,
+.photo {
+  width: 492px;
+  height: 448px;
+}
+
+.label {
+  padding: 24px 0px;
+  gap: 12px;
+  border-radius: 24px;
+  background: #FFFFFF;
+  border: 1px solid #F4F4F4;
+  position: absolute;
+}
+
+.height-72 {
+  height: 72px;
+}
+
+.top-312 {
+  top: 312px;
+}
+
+.bi-currency-dollar {
+  color: #00CC7C;
+}
+
+/* main */
+/* 1er section main */
+.cont {
+  height: 1248px;
+  top: 1024px;
+  background-color: #f8f8f8;
+}
+
+.new-project {
+  width: 1216px;
+  height: 536px;
+  position: relative;
+  top: 104px;
+  left: 210px;
+  padding: 56px;
+  gap: 8px;
+  border-radius: 40px;
+  background-color: #FFFFFF;
+}
+
+.text-project {
+  width: 1030px;
+  height: 424px;
+  gap: 64px;
+}
+
+.text-button {
+  width: 588px;
+  height: 404px;
+  gap: 40px;
+}
+
+.text-overline {
+  height: 192px;
+  gap: 12px;
+}
+
+.nuevo {
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.boy-p,
+.font-museo {
+  font-weight: museo sans rounded;
+}
+
+.boy-p,
+.how-inversion {
+  font-weight: 700;
+}
+
+.p-inversion,
+.p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.explora {
+  height: 160px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.info {
+  gap: 16px;
+}
+
+.loader {
+  width: 272px;
+}
+
+.info,
+.ea {
+  height: 72px;
+}
+
+.loader,
+.ea {
+  padding: 24px 0px;
+  gap: 12px;
+  border-radius: 24px;
+  border: 1px solid #F4F4F4;
+  color: #FFFFFF;
+}
+
+.ea {
+  width: 156px;
+}
+
+.text-72 {
+  width: 32px;
+  top: 24px;
+  left: 24px;
+}
+
+.text-ea {
+  width: 72px;
+  top: 24px;
+  left: 60px;
+}
+
+.bar-loader {
+  width: 175px;
+  height: 12px;
+  top: 30px;
+  left: 73px;
+  padding: 1px 49.44px 1px 1px;
+  border-radius: 16px;
+  border: 1px solid #D8D8D8;
+  background: #F4F4F4;
+}
+
+.bar-loader>div {
+  width: 0;
+  height: 8px;
+  border-radius: 10px;
+  background-color: #0DCB7C;
+}
+
+.rect {
+  width: 124.56px;
+  height: 10px;
+  top: 1px;
+  left: 1px;
+  border-radius: 32px;
+  background: #0DCB7C;
+}
+
+.refresh {
+  width: 24px;
+  height: 24px;
+  top: 24px;
+  left: 48px;
+}
+
+.bi-arrow-clockwise {
+  width: 14.92px;
+  height: 15px;
+  top: 4.5px;
+  left: 19.46px;
+  color: #0DCB7C;
+}
+
+.actions {
+  width: 473px;
+  height: 60px;
+  gap: 24px;
+}
+
+.p-g-b{
+  padding: 16px 24px;
+  gap: 8px;
+  border-radius: 36px;
+}
+
+.detalles-project {
+  width: 276px;
+  height: 60px;
+}
+
+.text-detalles {
+  width: 196px;
+  height: 28px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.fw700{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.text-title {
+  width: 452px;
+  height: 32px;
+}
+
+.farmatodo {
+  width: 452px;
+  height: 336px;
+  border-radius: 40px;
+}
+
+.title-location {
+  width: Fill (452px)px;
+  height: Hug (64px)px;
+  gap: 8px;
+}
+
+.location {
+  width: 249px;
+  height: 24px;
+  gap: 16px;
+}
+
+.bi-geo-alt {
+  width: 24px;
+  height: 24px;
+}
+
+/* section others */
+.section-others {
+  width: 1216px;
+  height: 416px;
+  position: relative;
+  top: 260px;
+  left: 210px;
+  gap: 32px;
+}
+
+.text-others {
+  right: 230px;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.proyectos {
+  gap: 32px;
+}
+
+.proyecto-farma {
+  width: 432px;
+  height: 356px;
+  border-radius: 32px;
+  padding: 48px 40px;
+  gap: 64px;
+  background-color: #FFFFFF;
+}
+
+.title-text {
+  width: 352px;
+  height: 136px;
+  gap: 24px;
+}
+
+.farmatodo {
+  width: 352px;
+}
+
+.farmatodo-text {
+  height: 64px;
+}
+
+.actions-farmatodo {
+  width: 352px;
+  height: 60px;
+  gap: 24px;
+}
+
+.eyes {
+  width: Hug (155px)px;
+  height: Hug (60px)px;
+}
+
+.layouts {
+  width: 288px;
+  height: 356px;
+  padding: 48px 40px;
+  gap: 64px;
+  border-radius: 32px;
+  background-color: #FFFFFF;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.ver {
+  width: Hug (169px)px;
+  height: Hug (60px)px;
+  gap: 24px;
+}
+
+/* section stats */
+.content {
+  width: Fixed (1, 440px)px;
+  height: Hug (408px)px;
+  top: 2272px;
+  padding: 144px 112px;
+  gap: 104px;
+  background-color: #001A6F;
+}
+
+.sta {
+  color: #F8F8F8;
+}
+
+.article-stats {
+  width: Fixed (1, 440px)px;
+  height: Hug (236px)px;
+  top: 2680px;
+  padding: 24px 112px;
+  gap: 48px;
+}
+
+/* footer */
+footer {
+  width: 1440px;
+  height: 280px;
+  margin-top: 60px;
+  border: 1px solid #F8F8F8;
+  position: relative;
+}
+
+.footer-logo {
+  width: Fixed (1, 440px)px;
+  height: Hug (160px)px;
+  padding: 56px 112px;
+  gap: 48px;
+  border: 1px solid #F8F8F8;
+  background-color: #FFFFFF;
+}
+
+.h2-footer {
+  width: Fill (507px)px;
+  height: Fixed (48px)px;
+  gap: 8px;
+}
+
+.fw400-fs16-lh24{
+   font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.p-foo {
+  color: #646464;
+  width: 1016px;
+  height: 24px;
+}
+
+.farmatodo-p {
+  height: 48px;
+}
+
+.icons-foo {
+  width: Hug (152px)px;
+  height: Hug (20px)px;
+  gap: 24px;
 }

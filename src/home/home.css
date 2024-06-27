@@ -1,0 +1,285 @@
+/* header */
+.header-home {
+    background-image: linear-gradient(90deg, #011B6F 13.72%, rgba(0, 26, 112, 0.82) 58.43%), url(../img/img.jpg);
+    height: 1336px;
+    background-attachment: fixed;
+    padding: 0px 108px;
+    color: #FFFFFF;
+}
+
+.hero-section {
+    height: 332px;
+    margin-top: 274px;
+    margin-left: 112px;
+    gap: 80px;
+}
+
+.hero-text {
+    height: 192px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    gap: 32px;
+}
+
+.show-proyects {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.div-label {
+    top: 216px;
+    left: 840px;
+    box-shadow: 0px 4px 108px 0px #071341;
+    position: absolute;
+}
+
+.first-label {
+    width: 233px;
+    top: 32px;
+    left: -96px;
+}
+
+.second-label {
+    width: 240px;
+    left: -48px;
+}
+
+.tree-label {
+    width: 154px;
+    left: 322px;
+}
+
+/* calculator */
+
+.calculator {
+    width: 1224px;
+    height: 176px;
+    top: 260px;
+    left: 100px;
+    border: 2px solid #F4F4F4;
+    padding: 32px 56px;
+    gap: 32px;
+    background: #FFFFFF;
+}
+
+#select {
+    width: 388.5px;
+    height: 24px;
+}
+
+.calc-h4 {
+    color: #323232;
+    font-weight: 700;
+}
+
+.calc {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.span-calc {
+    color: #969696;
+    font-weight: 400;
+    text-align: right;
+}
+
+.btn-simulacion {
+    width: 207px;
+    background-color: #001A6F;
+    color: #FFFFFF;
+}
+
+/* seccion invertir */
+
+.invertir {
+    width: 1440px;
+    height: 1384px;
+    top: 3036px;
+    padding: 168px 112px ;
+    gap: 120px;
+}
+
+.text-inver {
+    width: Hug (1, 216px)px;
+    height: Hug (412px)px;
+    top: 168px;
+    left: 112px;
+    gap: 64px;
+}
+
+.boy-p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+.how-inversion {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.p-inversion {
+    text-align: center;
+    width: 1016px;
+    height: 56px;
+}
+.p {
+    width: 520px;
+    height: 112px;
+    text-align: left;
+}
+.boy-container {
+    width: Fixed (1, 216px)px;
+    height: Hug (236px)px;
+    position: relative;
+}
+
+.boy {
+    width: 527px;
+    height: 236px;
+    gap: 24px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.boy-text {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    grid-template-columns: repeat(3, 290px);
+    grid-template-rows: repeat(2, 70px);
+}
+
+.cont-boy {
+    background-color: #F8F8F8;
+    height: 72px;
+    padding: 24px 0px;
+    gap: 12px;
+    border-radius: 24px;
+}
+
+.cont-1 {
+    width: 304px;
+}
+
+.cont-2 {
+    width: 251px;
+}
+
+.cont-3 {
+    width: 238px;
+}
+
+.cont-4 {
+    width: 275px;
+}
+
+.cont-5 {
+    width: 351px;
+}
+
+.testimonial-container {
+    width: Fixed (1, 216px)px;
+    height: Hug (516px)px;
+    top: 700px;
+    left: 112px;
+    padding: 104px 56px;
+    gap: 8px;
+    border-radius: 40px;
+    background-color: #F8F8F8;
+}
+
+.frame {
+    width: Fill (1, 104px)px;
+    height: Hug (308px)px;
+    gap: 64px;
+}
+
+.frame-1 {
+    gap: 56px;
+}
+
+.frame-p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.descubre {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    width: 520px;
+    height: 160px;
+}
+
+.btn-frame {
+    width: 173px;
+    padding: 16px 24px;
+    gap: 8px;
+    border-radius: 36px;
+    opacity: 0px;
+    border: 1px solid #323232;
+    background-color: transparent;
+}
+
+.frame-2 {
+    width: Fill (520px)px;
+    height: Hug (275px)px;
+    gap: 64px;
+}
+
+.protti-img {
+    width: 63px;
+    height: 63px;
+    border-radius: 101.61px;
+}
+
+/* section stats */
+
+.stats {
+    width: Fill (1, 216px)px;
+    height: Hug (120px)px;
+    gap: 200px;
+    opacity: 0px;
+}
+
+.text-110 {
+    display: bold;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.text-stats {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.p-article {
+    font-family: Museo Sans Rounded;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+.btn-call {
+    width: Hug (275px)px;
+    height: Hug (60px)px;
+    padding: 16px 24px;
+    gap: 8px;
+    border-radius: 36px;
+    opacity: 0px;
+    font-family: Museo Sans Rounded;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+}
