@@ -3,7 +3,7 @@ import "./simulation.css"
 function SectionSimulador() {
     return (
         <div className="conatiner-simulador ">
-            <div className="d-flex text-grup">
+            <div className="d-flex align-items-center text-grup">
                 <div className="d-flex flex-column text">
 
                     <div className="d-flex flex-column title-inputs">
@@ -47,94 +47,153 @@ function SectionSimulador() {
 
                 </div>
 
-                <div className="d-flex flex-column graph">
+                <div className="d-flex flex-column graph-container">
                     <p className="fw400-fs16-lh24">Rentabilidad de inversión por año</p>
-                    <div className="graph-reference">
-                        {/* <div className="grap d-flex flex-column justify-content-between">
-                                <div className="amount d-flex flex-column justify-content-center">
-                                <p>$15 M</p>
-                                <p>$10 M</p>
-                                <p>$5 M</p>
-                                <p>$0</p>
-                                </div>
-                                <div className="d-flex justify-content-around año">
-                                <div className="bar-loader bars">
-                                        <div className="rect d-flex flex-column" id="rect-barra"></div>
+                    <div className="d-flex">
+                        <div className="graph-reference d-flex flex-column">
+                            <div>$15 M</div>
+                            <div>$10 M</div>
+                            <div>$5 M</div>
+                            <div>$0</div>
+                        </div>
+                        <div className="graf_board">
+                            <div className="cont_board d-flex align-items-center">
+                                <div className="barra">
+                                    <div class="sub_barra b1">
+                                    <div className="d-flex gap-1">
+                                        <div className="tag_g"><div className="blue"></div></div>
+                                        <div className="tag_g"><div className="blue"></div></div>
                                     </div>
-                                    
-                                    <p>02</p>
-                                    <p>03</p>
-                                    <p>04</p>
-                                    <p>05</p>
-                                    <p>06</p>
-                                    <p>07</p>
-                                    <p>08</p>
-                                    <p>09</p>
-                                    <p>10</p>
+                                    <div class="tag_leyenda">02</div>
                                 </div>
-                            </div> */}
+                                </div>
+                                <div className="barra">
+                                    <div class="sub_barra b1">
+                                    <div className="d-flex gap-1">
+                                        <div className="tag_g"><div className="blue"></div></div>
+                                        <div className="tag_g"><div className="blue"></div></div>
+                                    </div>
+                                    <div class="tag_leyenda">02</div>
+                                </div>
+                                </div>
+                                <div className="barra">
+                                    <div class="sub_barra b1">
+                                    <div className="d-flex gap-1">
+                                        <div className="tag_g"><div className="blue"></div></div>
+                                        <div className="tag_g"><div className="blue"></div></div>
+                                    </div>
+                                    <div class="tag_leyenda">02</div>
+                                </div>
+                                </div>
+                                
+                            </div>
 
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+export default SectionSimulador;
+
+
+
+
+{/* <div className="graph-reference">
                         <div class="grap">
-                            <div class="sep_board"></div>
+                            {/* <div class="sep_board"></div> 
                             <div class="cont_board">
                                 <div class="graf_board">
                                     <div class="barra">
-                                        <div class="sub_barra b1">
-                                            <div className="tag_g"><div className="blue"></div></div>
+                                        <div class="sub_barra b5 ">
+                                            <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
+
                                             <div class="tag_leyenda">01</div>
                                         </div>
                                     </div>
                                     <div class="barra">
-                                        <div class="sub_barra b2">
-                                            <div className="tag_g"></div>
+                                        <div class="sub_barra b5">
+                                            <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
                                             <div class="tag_leyenda">02</div>
                                         </div>
                                     </div>
                                     <div class="barra">
-                                        <div class="sub_barra b3">
-                                            <div className="tag_g"></div>
+                                        <div class="sub_barra b5">
+                                            <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
                                             <div class="tag_leyenda">03</div>
                                         </div>
                                     </div>
                                     <div class="barra">
-                                        <div class="sub_barra b4">
-                                            <div className="tag_g"></div>
+                                        <div class="sub_barra b5">
+                                        <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
                                             <div class="tag_leyenda">04</div>
                                         </div>
                                     </div>
                                     <div class="barra">
                                         <div class="sub_barra b5">
-                                            <div className="tag_g"></div>
+                                        <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
                                             <div class="tag_leyenda">05</div>
                                         </div>
                                     </div>
                                     <div class="barra">
                                         <div class="sub_barra b5">
-                                            <div className="tag_g"></div>
+                                        <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
                                             <div class="tag_leyenda">06</div>
                                         </div>
                                     </div>
                                     <div class="barra">
                                         <div class="sub_barra b5">
-                                            <div className="tag_g"></div>
+                                        <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
                                             <div class="tag_leyenda">07</div>
                                         </div>
                                     </div>
                                     <div class="barra">
                                         <div class="sub_barra b5">
-                                            <div className="tag_g"></div>
+                                        <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
                                             <div class="tag_leyenda">08</div>
                                         </div>
                                     </div>
                                     <div class="barra">
                                         <div class="sub_barra b5">
-                                            <div className="tag_g"></div>
+                                        <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
                                             <div class="tag_leyenda">09</div>
                                         </div>
                                     </div>
                                     <div class="barra">
                                         <div class="sub_barra b5">
-                                            <div className="tag_g"></div>
+                                        <div className="d-flex gap-1">
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                                <div className="tag_g"><div className="blue"></div></div>
+                                            </div>
                                             <div class="tag_leyenda">10</div>
                                         </div>
                                     </div>
@@ -151,10 +210,4 @@ function SectionSimulador() {
                             <div class="sep_board"></div>
                         </div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
-}
-export default SectionSimulador;
+                    </div> */}
