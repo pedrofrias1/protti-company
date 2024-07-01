@@ -1,6 +1,6 @@
-function Footer(){
+function Footer({itemsMenu}){
     return(
-        <footer className="d-flex flex-column mt-5">
+        <footer className={itemsMenu === 'simulador' ? 'footer d-flex flex-column mt-5':'s'}>
             <div className="footer-logo d-flex align-items-center justify-content-between">
                 <h2 className="h2-footer">PROTTI</h2>
                 <ul class="links d-flex align-items-center justify-content-between">

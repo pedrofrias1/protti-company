@@ -63,54 +63,33 @@
     text-align: center;
 }
 
-.graph-container {
+.graph {
     width: 582px;
-    height:304px;
+    height: 304px;
     padding: 32px 40px;
     gap: 40px;
     border-radius: 40px;
     background-color: #FFFFFF;
 }
 
+.p-graph {
+    font-family: Museo Sans Rounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #323232;
+}
+
 .graph-reference {
-    width: 15%;
+    width: 502px;
     height: 180px;
     gap: 32px;
 }
 
-.grap {
-    width: 502px;
-    height: 126px;
-    padding: 0px 0px 0px 62px;
-    justify-content: space-between;
-}
-
-.año {
-    padding-left: 60px;
-}
-
-.bars {
-    width: 8px;
-    height: 98px;
-    padding: 69px 0px;
-    border-radius: 16px;
-}
-
-
-.sep_board {
-    width: 100%;
-    height: 10%;
-}
-
-.cont_board {
-    /* width: 502px; */
-    padding: 0px 0px 0px 12px;
-    height: 126px;
-}
-
 .graf_board {
-    width: 100%;
-    height: 100%;
+    width: 502px;
+    height: 120px;
     float: right;
     margin-top: 0px;
     align-items: flex-start;
@@ -158,6 +137,28 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#00ffffff', GradientType=0);
 }
 
+.amount {
+    width: 50px;
+    height: 120px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    position: absolute;
+}
+
+.p-amount {
+    font-family: Museo Sans Rounded;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: right;
+    position: relative;
+    right: 50px;
+    width: 46px;
+    height: 22px;
+    padding-right: 6px;
+}
+
 .barra {
     width: 100%;
     height: 100%;
@@ -175,28 +176,55 @@
     gap: 4px;
 }
 
-/* .sub_barra{
-    width: 8px;
-    height: 98px;
-    /* background: #00799b; 
-    border-radius: 16px;
-} */
 .tag_g {
     position: relative;
     width: 8px;
     height: 98px;
     border-radius: 16px;
-    margin-bottom: 30px;
+    background-color: #F4F4F4;
     text-align: center;
-    margin-top: -20px;
     z-index: 2;
-    background-color: red;
 }
+
+.blue {
+    background-color: #0570CC;
+    height: 29px;
+    position: relative;
+    top: 69px;
+    border-radius: 0 0 18px 18px;
+}
+
+.green {
+    background-color: #0DCB7C;
+    height: 86px;
+    position: relative;
+    top: 12px;
+    border-radius: 0 0 18px 18px;
+}
+
+.bi-circle-fill {
+    width: 8px;
+    height: 8px;
+    padding: 0 4px 0 0;
+    gap: 0px;
+    /* border-radius: 4px 0px 0px 0px; */
+    opacity: 0px;
+}
+
+.circle-blue {
+    color: #0570CC;
+}
+
+.circle-green {
+    color: #0DCB7C;
+}
+
+
 
 .tag_leyenda {
     width: 100%;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .tag_board {
@@ -244,11 +272,12 @@
     height: 85%
 }
 
-footer {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
-    font-family: sans-serif;
+.footer {
+    width: 1440px;
+    height: 280px;
+    top: 886px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
 }
