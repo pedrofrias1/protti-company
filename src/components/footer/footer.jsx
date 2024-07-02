@@ -1,15 +1,17 @@
+import { Link } from "react-router-dom";
+
 function Footer({itemsMenu}){
     return(
-        <footer className={itemsMenu === 'simulador' ? 'footer d-flex flex-column mt-5':'s'}>
+        <footer className={itemsMenu === 'simulador' ? 'footer d-flex flex-column mt-5':''}>
             <div className="footer-logo d-flex align-items-center justify-content-between">
-                <h2 className="h2-footer">PROTTI</h2>
+                <Link to="/" className="h2-footer"><h2 >PROTTI</h2></Link>
                 <ul class="links d-flex align-items-center justify-content-between">
-                    <li>Proyectos</li>
-                    <li>Simulador</li>
-                    <li>Nosotros</li>
-                    <li>FAQ´S</li>
-                    <li>Contacto</li>
-                    <li>Inversionistas</li>
+                    <Link to="/Proyectos" className="li-footer"><li >Proyectos</li></Link>
+                    <Link to="/Simulador" className="li-footer"><li>Simulador</li></Link>
+                    <Link to="/Nosotros" className="li-footer"><li>Nosotros</li></Link>
+                    <Link to="/Faqs" className="li-footer"><li>FAQ´S</li></Link>
+                    <Link to="/Contacto" className="li-footer"><li>Contacto</li></Link>
+                    <Link to="/Inversionistas" className="li-footer"><li>Inversionistas</li></Link>
                 </ul>
             </div>
             <div className="footer-btn d-flex justify-content-center">

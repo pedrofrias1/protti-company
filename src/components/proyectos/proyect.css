@@ -1,0 +1,86 @@
+.body-proyectos {
+    background-color: #f8f8f8;
+    height: 100%;
+}
+
+h6 {
+    font-family: Museo Sans Rounded;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #323232;
+}
+
+.card-contain {
+    width: 592px;
+    height: 727px;
+    padding: 16px 0px;
+    gap: 24px;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+}
+
+.section-proyectos {
+    width: 1216px;
+    top: 212px;
+    left: 112px;
+    position: relative;
+}
+
+.img-proyectos {
+    width: 560px;
+    height: 275px;
+    border-radius: 32px;
+}
+
+.cont-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(2, 750px);
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyectos-fondeados {
+    width: 1216px;
+    height: 551px;
+    top: 1730px;
+    left: 112px;
+    padding: 56px 0px;
+    gap: 8px;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+}
+
+.text-fondeados {
+    width: 1104px;
+    height: 439px;
+    gap: 64px;
+    opacity: 0px;
+
+}
+
+.button-fondeados {
+    width: 588px;
+    height: 316px;
+    gap: 56px;
+    opacity: 0px;
+}
+
+.btn-completados {
+    width: 333px;
+    height: 60px;
+    padding: 16px 24px;
+    gap: 8px;
+    border-radius: 36px;
+    border: 1px solid #323232;
+    color: #323232;
+}
+
+.fondeados {
+    width: 452px;
+    height: 275px;
+    border-radius: 40px;
+}

@@ -2,7 +2,7 @@
 :root {
   --color-323232: #323232;
   --color-969696: #969696;
-  --bg-color-ffff:#ffff;
+  --bg-color-ffff: #ffff;
 }
 
 /* animation */
@@ -34,9 +34,10 @@
 }
 
 /* font */
-.font-400{
+.font-400 {
   font-weight: 400;
 }
+
 header {
   padding-bottom: 60px;
 }
@@ -206,7 +207,7 @@ ul {
   line-height: 28px;
 }
 
-.text-left{
+.text-left {
   text-align: left;
 }
 
@@ -303,7 +304,7 @@ ul {
   gap: 24px;
 }
 
-.p-g-b{
+.p-g-b {
   padding: 16px 24px;
   gap: 8px;
   border-radius: 36px;
@@ -326,7 +327,7 @@ ul {
   font-weight: 600;
 }
 
-.fw700{
+.fw700 {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -462,7 +463,7 @@ footer {
   height: 280px;
   margin-top: 60px;
   border: 1px solid #F8F8F8;
-  top:4420px;
+  top: 4420px;
   position: relative;
 }
 
@@ -479,10 +480,12 @@ footer {
   width: Fill (507px)px;
   height: Fixed (48px)px;
   gap: 8px;
+  text-decoration: none;
+  color: #646464;
 }
 
-.fw400-fs16-lh24{
-   font-size: 16px;
+.fw400-fs16-lh24 {
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -491,6 +494,16 @@ footer {
   color: #646464;
   width: 1016px;
   height: 24px;
+}
+
+.li-footer {
+  font-family: Museo Sans Rounded;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #646464;
+  text-decoration: none;
 }
 
 .farmatodo-p {
