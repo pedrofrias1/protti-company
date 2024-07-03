@@ -1,0 +1,64 @@
+.card-register-container {
+    width: 592px;
+    height: 862px;
+    position: relative;
+    top: 81px;
+    left: 424px;
+    padding: 40px 48px;
+    gap: 48px;
+    border-radius: 40px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+}
+
+.card-register {
+    width: 496px;
+    height: 782px;
+    gap: 18px;
+    border-radius: 40px;
+}
+
+.phoneInput {
+    width: 20px;
+}
+
+.PhoneInputCountry {
+    width: 27px;
+    position: relative;
+    top: 40px;
+}
+
+.PhoneInputInput {
+    position: relative;
+    left: 40px;
+    width: 320px;
+    height: 60px;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 16px;
+    border: 1px solid #D8D8D8;
+    opacity: 0px;
+}
+
+.PhoneInputCountrySelect {
+    display: none;
+}
+
+.steps {
+    width: 298px;
+    height: 1px;
+    gap: 8px;
+}
+
+.loader {
+    width: 90px;
+    height: 1px;
+    gap: 0px;
+    border-radius: 16px ;
+    border: 1px solid #D8D8D8;
+    opacity: 0px;
+    background-color: #F4F4F4;
+}
+#green{
+    background-color: #0DCB7C;
+}

@@ -1,0 +1,65 @@
+.pop-up {
+    width: 592px;
+    height: 600px;
+    position: relative;
+    top: 110px;
+    left: 424px;
+    padding: 40px 48px;
+    gap: 48px;
+    border-radius: 40px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+}
+
+.h5 {
+    color: #323232;
+    font-family: Museo Sans Rounded;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.input-login {
+    width: 496px;
+    height: 60px;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #D8D8D8
+}
+
+.btn-login {
+    width: 168px;
+    height: 60px;
+    padding: 16px 24px;
+    gap: 8px;
+    border-radius: 36px;
+    background-color: #001A6F;
+    font-family: Museo Sans Rounded;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.olvidar-contraseña {
+    font-family: Museo Sans Rounded;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #323232;
+}
+
+.close{
+    text-align: end;
+    text-decoration: none;
+    color: #323232;
+}
+
+.crear-cuenta{
+    text-decoration: none;
+}

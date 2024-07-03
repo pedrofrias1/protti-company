@@ -5,6 +5,8 @@ import Simulador from "../pages/simulador";
 import Proyectos from "../pages/proyectos";
 import Nosotros from "../pages/nosotros";
 import Contacto from "../pages/contacto";
+import Login from "../pages/login";
+import Register from "../pages/register";
 
 function Router(){
     return(
@@ -15,6 +17,8 @@ function Router(){
             <Route path="/Proyectos" element={<Proyectos/>}/>
             <Route path="/Nosotros" element={<Nosotros/>}/>
             <Route path="/Contacto" element={<Contacto/>}/>
+            <Route path="/Login" element={<Login/>}/>
+            <Route path="/Register" element={<Register/>}/>
         </Routes>
         </BrowserRouter>
         

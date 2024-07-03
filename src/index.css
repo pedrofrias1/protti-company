@@ -515,3 +515,12 @@ footer {
   height: Hug (20px)px;
   gap: 24px;
 }
+
+/* lOGIN / REGISTER */
+.main-login {
+  background-image: url("./img/img-login.png");
+  width: 100%;
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

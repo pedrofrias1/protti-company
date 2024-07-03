@@ -64,7 +64,7 @@ function Header({itemsMenu}) {
 
                 <div>
                     <h4 class="calc-h4 calc">Monto</h4>
-                    <input type="text" placeholder="cuanto deseas invertir?" /> <span class="span-calc calc">*Min $5.000.000,00</span>
+                    <input type="text" placeholder="cuanto deseas invertir?" className="input-ivertir"/><span class="span-calc calc">*Min $5.000.000,00</span>
                 </div>
 
                 <button class="btn-simulacion">Simular inversion</button>

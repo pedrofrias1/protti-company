@@ -12,7 +12,7 @@ function Nav({itemsMenu}){
                     <li>FAQ´S</li>
                     <li>Contacto</li>
                     <li><button class={itemsMenu === 'home'?"btn-inversion":"btn-sim"}>Inversionistas</button></li>
-                    <li><button class="btn-register">Registarse</button></li>
+                    <li><Link to="/Login"><button class="btn-register">Registarse</button></Link></li>
                     <li>ES</li>
                 </ul>
             
